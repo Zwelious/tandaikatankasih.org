@@ -39,18 +39,14 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 text-accent" />
                 <a href="https://wa.me/62XXXXXXXXX" className="opacity-80 hover:opacity-100 transition-opacity">
-                  +62 XXX XXXX XXXX
+                  +62 82233019778
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
                 <a href="mailto:info@tia.org" className="opacity-80 hover:opacity-100 transition-opacity">
-                  info@tia.org
+                  ria@ondihita.com
                 </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-accent" />
-                <span className="opacity-80">(021) XXXX XXXX</span>
               </li>
             </ul>
           </div>
