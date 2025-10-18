@@ -18,6 +18,13 @@ export default function Membership() {
     interests: [] as string[],
     consent: false,
   });
+  
+  const isValid =
+                  formData.name.trim() &&
+                  formData.email.trim() &&
+                  formData.phone.trim() &&
+                  formData.memberType.trim() &&
+                  formData.consent
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -279,13 +286,6 @@ export default function Membership() {
                     I consent to TI&A contacting me about membership and keeping me updated on events and impact stories.
                   </Label>
                 </div>
-
-                const isValid =
-                  formData.name.trim() &&
-                  formData.email.trim() &&
-                  formData.phone.trim() &&
-                  formData.memberType.trim() &&
-                  formData.consent
                 
                 <Button
                   type="submit"
