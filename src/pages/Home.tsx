@@ -51,7 +51,7 @@ export default function Home() {
               <Link to="/membership">Join TI&A</Link>
             </Button>
             <Button size="lg" variant="secondary" asChild className="shadow-lifted">
-              <a href="https://wa.me/62XXXXXXXXX" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/6282233019778" target="_blank" rel="noopener noreferrer">
                 Contact via WhatsApp
               </a>
             </Button>
