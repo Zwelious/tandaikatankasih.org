@@ -25,10 +25,35 @@ export default function Sponsors() {
   };
 
   const sponsors = {
-    platinum: ["Platinum Sponsor A", "Platinum Sponsor B"],
-    gold: ["Gold Sponsor A", "Gold Sponsor B", "Gold Sponsor C"],
-    silver: ["Silver Sponsor A", "Silver Sponsor B", "Silver Sponsor C", "Silver Sponsor D"],
-    partners: ["Partner A", "Partner B", "Partner C", "Partner D", "Partner E", "Partner F"],
+    platinum: [
+      "Djarum Foundation",
+      "Gudang Garam Corporate"
+    ],
+    gold: [
+      "HM Sampoerna",
+      "Bentoel Group",
+      "Wismilak Group"
+    ],
+    silver: [
+      "Nojorono Tobacco Indonesia",
+      "PT Karyadibya Mahardhika",
+      "Bukit Darmo Golf",
+      "Ciputra Group"
+    ],
+    partners: [
+      "Bank Mandiri",
+      "Bank BCA", 
+      "Telkom Indonesia",
+      "Astra International",
+      "Garuda Indonesia",
+      "Hotel Majapahit Surabaya",
+      "Samator Group",
+      "Sinar Mas Group",
+      "Lippo Group",
+      "Salim Group",
+      "Barito Pacific",
+      "Indofood"
+    ],
   };
 
   return (

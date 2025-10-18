@@ -5,7 +5,20 @@ import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-golf.jpg";
 
 export default function Home() {
-  const sponsors = ["Sponsor 1", "Sponsor 2", "Sponsor 3", "Sponsor 4", "Sponsor 5", "Sponsor 6"];
+  const sponsors = [
+    "Djarum Foundation",
+    "Gudang Garam",
+    "HM Sampoerna",
+    "Bentoel Group",
+    "Nojorono Tobacco",
+    "PT Karyadibya Mahardhika",
+    "Wismilak Group",
+    "Bukit Darmo Golf",
+    "Bank Mandiri",
+    "Bank BCA",
+    "Telkom Indonesia",
+    "Astra International"
+  ];
 
   return (
     <div className="min-h-screen">
@@ -34,7 +47,7 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" variant="default" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lifted">
+            <Button size="lg" variant="default" asChild className="shadow-lifted">
               <Link to="/membership">Join TI&A</Link>
             </Button>
             <Button size="lg" variant="secondary" asChild className="shadow-lifted">
@@ -42,7 +55,7 @@ export default function Home() {
                 Contact via WhatsApp
               </a>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-primary-foreground/50 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button size="lg" variant="secondary" asChild className="shadow-lifted">
               <Link to="/events">View Events</Link>
             </Button>
           </div>
