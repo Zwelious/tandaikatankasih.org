@@ -280,20 +280,21 @@ export default function Membership() {
                   </Label>
                 </div>
 
+                const isValid =
+                  formData.name.trim() &&
+                  formData.email.trim() &&
+                  formData.phone.trim() &&
+                  formData.memberType.trim() &&
+                  formData.consent
+                
                 <Button
                   type="submit"
                   size="lg"
                   className="w-full"
-                  disabled={
-                    !formData.name.trim() ||
-                    !formData.email.trim() ||
-                    !formData.subject.trim() ||
-                    !formData.message.trim()
-                    // || submitting
-                  }
+                  disabled={!isValid}
                 >
                   <Send className="mr-2 h-5 w-5" />
-                  Send Message
+                  Submit Application
                 </Button>
                 
                 <p className="text-sm text-muted-foreground text-center">
