@@ -280,9 +280,25 @@ export default function Membership() {
                   </Label>
                 </div>
 
-                <Button type="submit" size="lg" className="w-full">
-                  Submit Application
+                <Button
+                  type="submit"
+                  size="lg"
+                  className="w-full"
+                  disabled={
+                    !formData.name.trim() ||
+                    !formData.email.trim() ||
+                    !formData.subject.trim() ||
+                    !formData.message.trim()
+                    // || submitting
+                  }
+                >
+                  <Send className="mr-2 h-5 w-5" />
+                  Send Message
                 </Button>
+                
+                <p className="text-sm text-muted-foreground text-center">
+                  Feature coming soon. Contact us directly via WhatsApp for inquiries
+                </p>
               </form>
             </CardContent>
           </Card>
