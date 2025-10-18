@@ -55,7 +55,7 @@ export default function Home() {
                 Contact via WhatsApp
               </a>
             </Button>
-            <Button size="lg" variant="secondary" asChild className="shadow-lifted">
+            <Button size="lg" variant="primary" asChild className="shadow-lifted">
               <Link to="/events">View Events</Link>
             </Button>
           </div>
