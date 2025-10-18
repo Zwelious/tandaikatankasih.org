@@ -144,7 +144,7 @@ export default function Home() {
       <section className="py-20 gradient-hero text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <Calendar className="h-16 w-16 text-accent mx-auto mb-6" />
-          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Upcoming Event</h2>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Events</h2>
           <p className="text-2xl mb-3">23rd Annual Charity Golf Tournament</p>
           <p className="text-xl opacity-90 mb-8">Surabaya • October 18, 2025</p>
           <Button size="lg" variant="secondary" asChild className="shadow-lifted">
