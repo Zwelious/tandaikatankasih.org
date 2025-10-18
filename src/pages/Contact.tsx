@@ -85,7 +85,7 @@ export default function Contact() {
                       <div>
                         <h3 className="font-semibold mb-2">Address</h3>
                         <p className="text-muted-foreground">
-                          Jakarta, Indonesia
+                          Surabaya, Indonesia
                         </p>
                       </div>
                     </CardContent>
