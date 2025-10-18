@@ -18,13 +18,6 @@ export default function Membership() {
     interests: [] as string[],
     consent: false,
   });
-  
-  const isValid =
-                  formData.name.trim() &&
-                  formData.email.trim() &&
-                  formData.phone.trim() &&
-                  formData.memberType.trim() &&
-                  formData.consent
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -286,20 +279,14 @@ export default function Membership() {
                     I consent to TI&A contacting me about membership and keeping me updated on events and impact stories.
                   </Label>
                 </div>
-                
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="w-full"
-                  disabled={!isValid}
-                >
-                  <Send className="mr-2 h-5 w-5" />
-                  Submit Application
-                </Button>
-                
+
                 <p className="text-sm text-muted-foreground text-center">
                   Feature coming soon. Contact us directly via WhatsApp for inquiries
                 </p>
+                
+                <Button type="submit" size="lg" className="w-full">
+                  Submit Application
+                </Button>
               </form>
             </CardContent>
           </Card>
