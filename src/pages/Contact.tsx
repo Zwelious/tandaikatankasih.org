@@ -57,7 +57,7 @@ export default function Contact() {
                           rel="noopener noreferrer"
                           className="text-accent hover:underline"
                         >
-                          +62 XXX XXXX XXXX
+                          +62 82233019778
                         </a>
                       </div>
                     </CardContent>
@@ -73,19 +73,8 @@ export default function Contact() {
                           href="mailto:info@tia.org"
                           className="text-accent hover:underline"
                         >
-                          info@tia.org
+                          ria@ondihita.org
                         </a>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="shadow-card">
-                    <CardContent className="p-6 flex items-start gap-4">
-                      <Phone className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
-                      <div>
-                        <h3 className="font-semibold mb-2">Phone</h3>
-                        <p className="text-muted-foreground mb-2">Call during business hours</p>
-                        <p className="text-foreground">(021) XXXX XXXX</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -197,13 +186,23 @@ export default function Contact() {
                       />
                     </div>
 
-                    <Button type="submit" size="lg" className="w-full">
+                    <Button
+                      type="submit"
+                      size="lg"
+                      className="w-full"
+                      disabled={
+                        !formData.name.trim() ||
+                        !formData.email.trim() ||
+                        !formData.subject.trim() ||
+                        !formData.message.trim()
+                      }
+                    >
                       <Send className="mr-2 h-5 w-5" />
                       Send Message
                     </Button>
 
                     <p className="text-sm text-muted-foreground text-center">
-                      Or contact us directly via WhatsApp for faster response
+                      Feature coming soon. Contact us directly via WhatsApp for inquiries
                     </p>
                   </form>
                 </CardContent>
