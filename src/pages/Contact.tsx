@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Mail, Phone, MessageCircle, MapPin, Send } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -52,12 +53,20 @@ export default function Contact() {
                         <h3 className="font-semibold mb-2">WhatsApp</h3>
                         <p className="text-muted-foreground mb-2">Fastest way to reach us</p>
                         <a 
-                          href="https://wa.me/62XXXXXXXXX" 
+                          href="https://wa.me/6281131178883" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="text-accent hover:underline"
                         >
-                          +62 82233019778
+                          +62 811 3117 8883 (Martijn Kroonen)
+                        </a>
+                        <a 
+                          href="https://wa.me/628123016228" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-accent hover:underline"
+                        >
+                          +62 812 3016 228 (Ron Oosterling) 
                         </a>
                       </div>
                     </CardContent>
@@ -70,10 +79,10 @@ export default function Contact() {
                         <h3 className="font-semibold mb-2">Email</h3>
                         <p className="text-muted-foreground mb-2">Send us a message</p>
                         <a 
-                          href="mailto:info@tia.org"
+                          href="mailto:ria@tandaikatankasih.org"
                           className="text-accent hover:underline"
                         >
-                          ria@ondihita.org
+                          ria@tandaikatankasih.org (Ria Ariany)
                         </a>
                       </div>
                     </CardContent>
@@ -93,7 +102,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <Card className="shadow-card bg-primary text-primary-foreground">
+             <Card className="shadow-card bg-primary text-primary-foreground">
                 <CardHeader>
                   <CardTitle className="text-xl font-serif">Quick Links</CardTitle>
                 </CardHeader>
@@ -101,16 +110,24 @@ export default function Contact() {
                   <p className="opacity-90">Looking for something specific?</p>
                   <ul className="space-y-2 mt-4">
                     <li>
-                      <a href="/membership" className="hover:text-accent transition-colors">→ Join TI&A Membership</a>
+                      <Link to="/membership" className="hover:text-accent transition-colors">
+                        → Join TI&A Membership
+                      </Link>
                     </li>
                     <li>
-                      <a href="/events" className="hover:text-accent transition-colors">→ Register for Golf Tournament</a>
+                      <Link to="/events" className="hover:text-accent transition-colors">
+                        → Register for Golf Tournament
+                      </Link>
                     </li>
                     <li>
-                      <a href="/sponsors" className="hover:text-accent transition-colors">→ Sponsorship Opportunities</a>
+                      <Link to="/sponsors" className="hover:text-accent transition-colors">
+                        → Sponsorship Opportunities
+                      </Link>
                     </li>
                     <li>
-                      <a href="/impact" className="hover:text-accent transition-colors">→ View Our Impact</a>
+                      <Link to="/impact" className="hover:text-accent transition-colors">
+                        → View Our Impact
+                      </Link>
                     </li>
                   </ul>
                 </CardContent>
