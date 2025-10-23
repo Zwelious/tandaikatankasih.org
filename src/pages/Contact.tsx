@@ -119,11 +119,11 @@ export default function Contact() {
                         → Register for Golf Tournament
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/sponsors" className="hover:text-accent transition-colors">
                         → Sponsorship Opportunities
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/impact" className="hover:text-accent transition-colors">
                         → View Our Impact

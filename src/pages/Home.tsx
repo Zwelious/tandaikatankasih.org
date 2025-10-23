@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       {/* Sponsor Marquee */}
-      <section className="py-16 bg-card border-y">
+      {/* <section className="py-16 bg-card border-y">
         <div className="container mx-auto px-4">
           <h2 className="font-serif text-3xl font-bold text-center mb-12">Our Valued Sponsors</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
@@ -138,7 +138,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Upcoming Event CTA */}
       <section className="py-20 gradient-hero text-primary-foreground">

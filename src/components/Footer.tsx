@@ -26,7 +26,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link to="/membership" className="opacity-80 hover:opacity-100 transition-opacity">Membership</Link></li>
               <li><Link to="/events" className="opacity-80 hover:opacity-100 transition-opacity">Events</Link></li>
-              <li><Link to="/sponsors" className="opacity-80 hover:opacity-100 transition-opacity">Sponsors</Link></li>
+              {/* <li><Link to="/sponsors" className="opacity-80 hover:opacity-100 transition-opacity">Sponsors</Link></li> */}
               <li><Link to="/impact" className="opacity-80 hover:opacity-100 transition-opacity">Impact</Link></li>
               <li><Link to="/gallery" className="opacity-80 hover:opacity-100 transition-opacity">Gallery</Link></li>
               <li><Link to="/contact" className="opacity-80 hover:opacity-100 transition-opacity">Contact</Link></li>
@@ -75,7 +75,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm opacity-80">
           <p>&copy; {new Date().getFullYear()} Tanda Ikatan Asih. All rights reserved.</p>
-          <p className="mt-2">With gratitude to our committee, members, sponsors, and community.</p>
+          <p className="mt-2">With gratitude to our committee, members, and community.</p>
         </div>
       </div>
     </footer>
