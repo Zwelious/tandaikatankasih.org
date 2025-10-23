@@ -39,13 +39,19 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 text-accent" />
                 <a href="https://wa.me/62XXXXXXXXX" className="opacity-80 hover:opacity-100 transition-opacity">
-                  +62 82233019778
+                  +62 811 3117 8883 (Martijn Kroonen)
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <MessageCircle className="h-4 w-4 text-accent" visibility="hidden"/>
+                <a href="https://wa.me/62XXXXXXXXX" className="opacity-80 hover:opacity-100 transition-opacity">
+                  +62 812 3016 228 (Ron Oosterling) 
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
                 <a href="mailto:info@tia.org" className="opacity-80 hover:opacity-100 transition-opacity">
-                  ria@ondihita.com
+                  ria@tandaikatankasih.org (Ria Ariany)
                 </a>
               </li>
             </ul>
