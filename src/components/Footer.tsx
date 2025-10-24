@@ -10,7 +10,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <Heart className="h-8 w-8 text-accent" fill="currentColor" />
+              <img 
+                src="/TIA-Logo.png" 
+                alt="TI&A Logo" 
+                className="h-8 w-8 object-contain transition-transform group-hover:scale-110"
+              />
               <div>
                 <h3 className="font-serif text-xl font-bold">TI&A</h3>
                 <p className="text-sm opacity-90">Tanda Ikatan Asih</p>

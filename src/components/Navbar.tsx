@@ -22,7 +22,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <NavLink to="/" className="flex items-center gap-3 group">
-            <Heart className="h-8 w-8 text-accent transition-transform group-hover:scale-110" fill="currentColor" />
+            <img 
+              src="/TIA-Logo.png" 
+              alt="TI&A Logo" 
+              className="h-8 w-8 object-contain transition-transform group-hover:scale-110"
+            />
             <div className="flex flex-col">
               <span className="font-serif text-xl font-bold text-primary">TI&A</span>
               <span className="text-xs text-muted-foreground">Tanda Ikatan Asih</span>
