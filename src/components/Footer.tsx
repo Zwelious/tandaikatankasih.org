@@ -42,19 +42,19 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 text-accent" />
-                <a href="https://wa.me/62XXXXXXXXX" className="opacity-80 hover:opacity-100 transition-opacity">
+                <a href="https://wa.me/6281131178883" className="opacity-80 hover:opacity-100 transition-opacity">
                   +62 811 3117 8883 (Martijn Kroonen)
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 text-accent" visibility="hidden"/>
-                <a href="https://wa.me/62XXXXXXXXX" className="opacity-80 hover:opacity-100 transition-opacity">
+                <a href="https://wa.me/628123016228" className="opacity-80 hover:opacity-100 transition-opacity">
                   +62 812 3016 228 (Ron Oosterling) 
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
-                <a href="mailto:info@tia.org" className="opacity-80 hover:opacity-100 transition-opacity">
+                <a href="mailto:ria@tandaikatankasih.org" className="opacity-80 hover:opacity-100 transition-opacity">
                   ria@tandaikatankasih.org (Ria Ariany)
                 </a>
               </li>

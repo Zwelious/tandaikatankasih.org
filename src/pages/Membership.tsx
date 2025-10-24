@@ -22,7 +22,7 @@ export default function Membership() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const message = `Hi TI&A, I'd like to join as ${formData.memberType} member. Name: ${formData.name}, Email: ${formData.email}`;
-    window.open(`https://wa.me/62XXXXXXXXX?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/6281131178883?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -33,7 +33,7 @@ export default function Membership() {
           <Users className="h-16 w-16 text-accent mx-auto mb-6" />
           <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6">Join TI&A Membership</h1>
           <p className="text-xl max-w-3xl mx-auto opacity-95">
-            Build a sustainable foundation and closer community for ongoing impact
+            Tanda Ikatan Asih Plans to Launch Annual Membership Program
           </p>
         </div>
       </section>
@@ -45,10 +45,10 @@ export default function Membership() {
             <div>
               <h2 className="text-4xl font-serif font-bold mb-6">Why Become a Member?</h2>
               <p className="text-lg leading-relaxed mb-6">
-                TI&A membership is more than joining an association—it's becoming part of a movement dedicated to creating lasting change through compassion and community.
+                Since its establishment, Tanda Ikatan Asih (TIA) has been committed to extending compassion and meaningful support to underprivileged children and elderly. Our journey has been made possible through the generosity of donors, volunteers, and partners who share the same belief: that every child and elderly deserves care, dignity, and hope for a brighter future.
               </p>
               <p className="text-lg leading-relaxed">
-                Your membership helps us build a sustainable foundation for our charitable initiatives, ensuring we can continue supporting the elderly, empowering youth, and caring for orphans for years to come.
+                To further strengthen this mission, Tanda Ikatan Asih is preparing to introduce an Annual Membership Program, designed to provide a sustainable foundation for our work while also building a closer relationship with our supporters.
               </p>
             </div>
             <div className="relative">
@@ -80,7 +80,7 @@ export default function Membership() {
                 <p className="text-muted-foreground mb-6">
                   Perfect for individuals who want to make a personal commitment to our charitable mission.
                 </p>
-                <ul className="space-y-3">
+                {/* <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                     <span>Official TI&A membership recognition</span>
@@ -97,7 +97,7 @@ export default function Membership() {
                     <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                     <span>Networking opportunities with community members</span>
                   </li>
-                </ul>
+                </ul> */}
               </CardContent>
             </Card>
 
@@ -113,7 +113,7 @@ export default function Membership() {
                 <p className="text-muted-foreground mb-6">
                   For companies committed to corporate social responsibility and community impact.
                 </p>
-                <ul className="space-y-3">
+                {/* <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                     <span>All Individual membership benefits</span>
@@ -130,14 +130,14 @@ export default function Membership() {
                     <Check className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                     <span>Team volunteering and community outreach programs</span>
                   </li>
-                </ul>
+                </ul> */}
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-8 p-4 bg-muted rounded-lg text-center">
             <p className="text-sm text-muted-foreground">
-              <strong>Note:</strong> Membership benefits list subject to final announcement. Fees are subject to change.
+              <strong>Note:</strong> We are still in the process of shaping these benefits and welcome input from our community to ensure the program reflects the values of togetherness and care that TIA represents. 
             </p>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function Membership() {
                 <HandHeart className="h-12 w-12 text-accent mx-auto mb-4" />
                 <h3 className="font-serif text-xl font-bold mb-3">Direct Impact</h3>
                 <p className="text-muted-foreground">
-                  Participate in charity visits and see firsthand how your contribution makes a difference in lives.
+                  Invitations to participate in donation visits, events, and volunteer opportunities. See firsthand how your contribution makes a difference in lives.
                 </p>
               </CardContent>
             </Card>
@@ -164,7 +164,7 @@ export default function Membership() {
                 <Users className="h-12 w-12 text-accent mx-auto mb-4" />
                 <h3 className="font-serif text-xl font-bold mb-3">Community Network</h3>
                 <p className="text-muted-foreground">
-                  Connect with like-minded individuals and organizations who share your passion for giving back.
+                  Recognition as a valued member on TIA communication platforms with regular updates and reports on TIA's activities and impact stories
                 </p>
               </CardContent>
             </Card>
@@ -174,10 +174,17 @@ export default function Membership() {
                 <Award className="h-12 w-12 text-accent mx-auto mb-4" />
                 <h3 className="font-serif text-xl font-bold mb-3">Recognition</h3>
                 <p className="text-muted-foreground">
-                  Be acknowledged for your commitment to community welfare and charitable causes.
+                  Special opportunities for corporate members to engage in community outreach with us
                 </p>
               </CardContent>
             </Card>
+          </div>
+          <div className="mt-8 p-4 bg-muted rounded-lg text-center">
+            <p className="text-sm text-muted-foreground">
+              Although time constraints have prevented us from rolling out a membership program yet, we are committed to launching it as soon as possible. We believe this program will not only provide financial stability for TIA but also create a stronger network of individuals and organizations working hand in hand to bring hope and support to those in need.
+
+We invite our friends, partners, and supporters to stay tuned for updates on the official launch of the Tanda Ikatan Asih Annual Membership Program. Together, we can continue to make a meaningful difference.
+            </p>
           </div>
         </div>
       </section>
