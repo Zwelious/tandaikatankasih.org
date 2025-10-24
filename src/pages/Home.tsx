@@ -38,7 +38,7 @@ export default function Home() {
             Tanda Ikatan Asih
           </h1>
           <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto opacity-95 text-balance">
-            Compassion Through Community and Golf
+            Inspiring Generosity, Fostering Hope, Building a Legacy of Giving
           </p>
           <div className="flex items-center justify-center gap-3 mb-8">
             <Users className="h-6 w-6 text-accent" />
@@ -147,6 +147,7 @@ export default function Home() {
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-4">Events</h2>
           <p className="text-2xl mb-3">23rd Annual Charity Golf Tournament</p>
           <p className="text-xl opacity-90 mb-8">Surabaya • October 18, 2025</p>
+          <p className="text-xl opacity-90 mb-8">Hosted by Tanda Ikatan Asih</p>
           <Button size="lg" variant="secondary" asChild className="shadow-lifted">
             <Link to="/events">See Program & Register</Link>
           </Button>
