@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <NavLink to="/" className="flex items-center gap-3 group">
             <img 
-              src="/TIA-Logo.png" 
+              src="/TIA-Logo.jpg" 
               alt="TI&A Logo" 
               className="h-8 w-8 object-contain transition-transform group-hover:scale-110"
             />
